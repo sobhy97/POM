@@ -9,6 +9,7 @@ public class PageBase {
 
     private WebDriver driver;
 
+    //Web driver initialization
     @BeforeClass
     public void teardown()
     {
@@ -16,7 +17,4 @@ public class PageBase {
         driver = new ChromeDriver();
 
     }
-
-
-
 }
